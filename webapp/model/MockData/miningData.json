@@ -1,0 +1,456 @@
+{
+    "miningListSet": [
+        {
+            "Location_ID": "LOC1152",
+            "Location_Description": "Description of location 35",
+            "Mining_Resource_Allocated": 6739,
+            "Total_Cost": 36934.85505118676,
+            "Number_of_Drills_Performed": 1,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC3924",
+            "Location_Description": "Description of location 82",
+            "Mining_Resource_Allocated": 4854,
+            "Total_Cost": 27770.179901795105,
+            "Number_of_Drills_Performed": 19,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC6066",
+            "Location_Description": "Description of location 13",
+            "Mining_Resource_Allocated": 7216,
+            "Total_Cost": 15779.65703572537,
+            "Number_of_Drills_Performed": 16,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC2853",
+            "Location_Description": "Description of location 22",
+            "Mining_Resource_Allocated": 1617,
+            "Total_Cost": 26535.205364279598,
+            "Number_of_Drills_Performed": 14,
+            "Type_of_Mineral": "Gold",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC5189",
+            "Location_Description": "Description of location 98",
+            "Mining_Resource_Allocated": 1900,
+            "Total_Cost": 19732.10979378243,
+            "Number_of_Drills_Performed": 7,
+            "Type_of_Mineral": "Gold",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC9649",
+            "Location_Description": "Description of location 26",
+            "Mining_Resource_Allocated": 3110,
+            "Total_Cost": 44918.27073882754,
+            "Number_of_Drills_Performed": 8,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC9046",
+            "Location_Description": "Description of location 46",
+            "Mining_Resource_Allocated": 7542,
+            "Total_Cost": 32629.10743572623,
+            "Number_of_Drills_Performed": 2,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC7088",
+            "Location_Description": "Description of location 39",
+            "Mining_Resource_Allocated": 1869,
+            "Total_Cost": 47831.63123688539,
+            "Number_of_Drills_Performed": 8,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC4561",
+            "Location_Description": "Description of location 46",
+            "Mining_Resource_Allocated": 8986,
+            "Total_Cost": 32088.03765554126,
+            "Number_of_Drills_Performed": 14,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC1815",
+            "Location_Description": "Description of location 56",
+            "Mining_Resource_Allocated": 2127,
+            "Total_Cost": 44118.565839780604,
+            "Number_of_Drills_Performed": 17,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC4482",
+            "Location_Description": "Description of location 55",
+            "Mining_Resource_Allocated": 4130,
+            "Total_Cost": 17102.62052524521,
+            "Number_of_Drills_Performed": 8,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC5467",
+            "Location_Description": "Description of location 27",
+            "Mining_Resource_Allocated": 1697,
+            "Total_Cost": 38611.44798017226,
+            "Number_of_Drills_Performed": 13,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC1044",
+            "Location_Description": "Description of location 68",
+            "Mining_Resource_Allocated": 2570,
+            "Total_Cost": 44122.02663511997,
+            "Number_of_Drills_Performed": 10,
+            "Type_of_Mineral": "Gold",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC7729",
+            "Location_Description": "Description of location 64",
+            "Mining_Resource_Allocated": 3055,
+            "Total_Cost": 48619.250016399004,
+            "Number_of_Drills_Performed": 20,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC8560",
+            "Location_Description": "Description of location 5",
+            "Mining_Resource_Allocated": 2181,
+            "Total_Cost": 18914.224809254625,
+            "Number_of_Drills_Performed": 18,
+            "Type_of_Mineral": "Gold",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC5472",
+            "Location_Description": "Description of location 62",
+            "Mining_Resource_Allocated": 6851,
+            "Total_Cost": 17031.853917801724,
+            "Number_of_Drills_Performed": 14,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC8520",
+            "Location_Description": "Description of location 15",
+            "Mining_Resource_Allocated": 9971,
+            "Total_Cost": 14386.565535625181,
+            "Number_of_Drills_Performed": 19,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC7400",
+            "Location_Description": "Description of location 64",
+            "Mining_Resource_Allocated": 5247,
+            "Total_Cost": 28752.27980332692,
+            "Number_of_Drills_Performed": 5,
+            "Type_of_Mineral": "Silver",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC7183",
+            "Location_Description": "Description of location 56",
+            "Mining_Resource_Allocated": 3819,
+            "Total_Cost": 19224.97220709819,
+            "Number_of_Drills_Performed": 4,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC1964",
+            "Location_Description": "Description of location 16",
+            "Mining_Resource_Allocated": 3369,
+            "Total_Cost": 12030.156071986254,
+            "Number_of_Drills_Performed": 1,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC8607",
+            "Location_Description": "Description of location 40",
+            "Mining_Resource_Allocated": 4995,
+            "Total_Cost": 35929.87018583229,
+            "Number_of_Drills_Performed": 20,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC5537",
+            "Location_Description": "Description of location 81",
+            "Mining_Resource_Allocated": 5306,
+            "Total_Cost": 37990.69191731539,
+            "Number_of_Drills_Performed": 4,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC3654",
+            "Location_Description": "Description of location 51",
+            "Mining_Resource_Allocated": 5720,
+            "Total_Cost": 47922.740772264864,
+            "Number_of_Drills_Performed": 19,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Negative"
+        },
+        {
+            "Location_ID": "LOC3557",
+            "Location_Description": "Description of location 26",
+            "Mining_Resource_Allocated": 8428,
+            "Total_Cost": 17445.15105669302,
+            "Number_of_Drills_Performed": 20,
+            "Type_of_Mineral": "Gold",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC6793",
+            "Location_Description": "Description of location 19",
+            "Mining_Resource_Allocated": 3188,
+            "Total_Cost": 10128.241939859396,
+            "Number_of_Drills_Performed": 3,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC5265",
+            "Location_Description": "Description of location 38",
+            "Mining_Resource_Allocated": 9316,
+            "Total_Cost": 38145.50744433463,
+            "Number_of_Drills_Performed": 16,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC9368",
+            "Location_Description": "Description of location 47",
+            "Mining_Resource_Allocated": 1921,
+            "Total_Cost": 34309.03861459743,
+            "Number_of_Drills_Performed": 12,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Uncertain"
+        },
+        {
+            "Location_ID": "LOC4471",
+            "Location_Description": "Description of location 33",
+            "Mining_Resource_Allocated": 4826,
+            "Total_Cost": 31405.850921486395,
+            "Number_of_Drills_Performed": 6,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC4183",
+            "Location_Description": "Description of location 2",
+            "Mining_Resource_Allocated": 9247,
+            "Total_Cost": 10020.840761936935,
+            "Number_of_Drills_Performed": 4,
+            "Type_of_Mineral": "Copper",
+            "Report_of_Possible_Mineral": "Positive"
+        },
+        {
+            "Location_ID": "LOC6798",
+            "Location_Description": "Description of location 35",
+            "Mining_Resource_Allocated": 3879,
+            "Total_Cost": 22225.92832180649,
+            "Number_of_Drills_Performed": 4,
+            "Type_of_Mineral": "Iron",
+            "Report_of_Possible_Mineral": "Positive"
+        }
+    ],
+    "miningSupplier": [
+        {
+            "Contractor_Name": "Contractor 70",
+            "Contact": "5510108211",
+            "Location": "Location 28",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 81",
+            "Contact": "9696601238",
+            "Location": "Location 73",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 37",
+            "Contact": "7121719636",
+            "Location": "Location 29",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 100",
+            "Contact": "5804765916",
+            "Location": "Location 72",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 85",
+            "Contact": "2025740351",
+            "Location": "Location 32",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 69",
+            "Contact": "1551310884",
+            "Location": "Location 83",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 82",
+            "Contact": "7447459567",
+            "Location": "Location 72",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 89",
+            "Contact": "7165638959",
+            "Location": "Location 86",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 79",
+            "Contact": "4938918352",
+            "Location": "Location 7",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 85",
+            "Contact": "1580080630",
+            "Location": "Location 18",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 25",
+            "Contact": "2081355426",
+            "Location": "Location 56",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 4",
+            "Contact": "5877115148",
+            "Location": "Location 82",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 56",
+            "Contact": "4559406454",
+            "Location": "Location 54",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 66",
+            "Contact": "4585845365",
+            "Location": "Location 18",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 47",
+            "Contact": "4894396496",
+            "Location": "Location 19",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 22",
+            "Contact": "8460271994",
+            "Location": "Location 44",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 60",
+            "Contact": "3371763144",
+            "Location": "Location 91",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 7",
+            "Contact": "7752364072",
+            "Location": "Location 82",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 66",
+            "Contact": "4740727846",
+            "Location": "Location 22",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 22",
+            "Contact": "9610013594",
+            "Location": "Location 96",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 7",
+            "Contact": "5390997273",
+            "Location": "Location 91",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 5",
+            "Contact": "8233751741",
+            "Location": "Location 71",
+            "Type_of_Mineral": "Silver"
+        },
+        {
+            "Contractor_Name": "Contractor 59",
+            "Contact": "9880343909",
+            "Location": "Location 42",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 93",
+            "Contact": "2020499418",
+            "Location": "Location 91",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 86",
+            "Contact": "2564722720",
+            "Location": "Location 56",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 54",
+            "Contact": "7315593037",
+            "Location": "Location 80",
+            "Type_of_Mineral": "Iron"
+        },
+        {
+            "Contractor_Name": "Contractor 45",
+            "Contact": "1429276266",
+            "Location": "Location 12",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 46",
+            "Contact": "9954170371",
+            "Location": "Location 36",
+            "Type_of_Mineral": "Gold"
+        },
+        {
+            "Contractor_Name": "Contractor 61",
+            "Contact": "1201135824",
+            "Location": "Location 37",
+            "Type_of_Mineral": "Copper"
+        },
+        {
+            "Contractor_Name": "Contractor 18",
+            "Contact": "4146884353",
+            "Location": "Location 84",
+            "Type_of_Mineral": "Silver"
+        }
+    ]
+}

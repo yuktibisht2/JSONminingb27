@@ -1,0 +1,64 @@
+<mvc:View controllerName="app.jsonminingb27.controller.DetailView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:comp="sap.ui.comp.filterbar">
+    <Page id="idDetail" title="Detail View" showNavButton="true" navButtonPress="onListView">
+        <content>
+            <IconTabBar>
+                <items>
+                    <IconTabFilter icon="sap-icon://information">
+                        <VBox >
+                            <f:SimpleForm>
+                                <Label text="LocationID"></Label>
+                                <Text text="{MiningModel>Location_ID}"></Text>
+                                <Label text="Location"></Label>
+                                <Text text="{MiningModel>Location_Description}"></Text>
+                                <Label text="Mineral Type"></Label>
+                                <Text text="{MiningModel>Type_of_Mineral}"></Text>
+                                <Label text="Cost"></Label>
+                                <Text text="{MiningModel>Total_Cost}"></Text>
+                                <Label text="Resouce Tons"></Label>
+                                <Text text="{MiningModel>Mining_Resource_Allocated}"></Text>
+                                <Label text="Drill Performed"></Label>
+                                <Text text="{MiningModel>Number_of_Drills_Performed}"></Text>
+                                <Label text="Potential"></Label>
+                                <Text text="{MiningModel>Report_of_Possible_Mineral}"></Text>
+                            </f:SimpleForm>
+                        </VBox>
+                    </IconTabFilter>
+                    <IconTabFilter icon="sap-icon://supplier">
+                        <Label text="Supplier"></Label>
+                        <Input id="idInputSupp" width="200px" liveChange="onFilter"></Input>
+                        <Label text="Location"></Label>
+                        <Input id="idInputCity" width="200px" liveChange="onFilter"></Input>
+                        <Table items="{MiningModel>/miningSupplier}" id="idMTable">
+                            <columns>
+                                <Column>
+                                    <Text text="Type of Mineral"></Text>
+                                </Column>
+                                <Column>
+                                    <Text text="Supplier Name"></Text>
+                                </Column>
+                                <Column>
+                                    <Text text="Location"></Text>
+                                </Column>
+                                <Column>
+                                    <Text text="Contact Details"></Text>
+                                </Column>
+                            </columns>
+                            <ColumnListItem>
+                                <cells>
+                                    <Text text="{MiningModel>Type_of_Mineral}"></Text>
+                                    <Input value="{MiningModel>Contractor_Name}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
+                                    <Text text="{MiningModel>Location}"></Text>
+                                    <Text text="{MiningModel>Contact}"></Text>
+                                </cells>
+                            </ColumnListItem>
+                        </Table>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </content>
+    </Page>
+</mvc:View>

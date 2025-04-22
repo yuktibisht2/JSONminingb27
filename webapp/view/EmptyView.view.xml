@@ -1,0 +1,6 @@
+<mvc:View controllerName="app.jsonminingb27.controller.EmptyView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="idEmpty" title="Empty View" ></Page>
+</mvc:View>

@@ -1,0 +1,26 @@
+<mvc:View controllerName="app.jsonminingb27.controller.MiningView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <headerContent>
+            <Button icon="sap-icon://sort" press="onSort"/>
+        </headerContent>
+        <subHeader>
+            <OverflowToolbar>
+                <SearchField search="onSearch" liveChange="onSearch"/>
+            </OverflowToolbar>
+        </subHeader>
+        <content>
+            <List id="idmining" items="{MiningModel>/miningListSet/}" mode="SingleSelectMaster" selectionChange="onItemSelect">
+                <items>
+                    <ObjectListItem title="{MiningModel>Type_of_Mineral}" intro="{MiningModel>Location_Description}">
+                        <attributes>
+                            <ObjectAttribute text="{MiningModel>Total_Cost}" title="{i18n>Total_Cost}"></ObjectAttribute>
+                            <ObjectAttribute text="{MiningModel>Mining_Resource_Allocated}" title="{i18n>Mining_Resource_Allocated}"></ObjectAttribute>
+                        </attributes>
+                    </ObjectListItem>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
