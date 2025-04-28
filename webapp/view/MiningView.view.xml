@@ -3,7 +3,8 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <headerContent>
-            <Button icon="sap-icon://sort" press="onSort"/>
+            <Button icon="sap-icon://sorting-ranking" press="onSort"/>
+            <Button  press="onScrollToBottom" type="Emphasized" icon="sap-icon://down" width="80px"/>
         </headerContent>
         <subHeader>
             <OverflowToolbar>
@@ -11,9 +12,10 @@
             </OverflowToolbar>
         </subHeader>
         <content>
+        <ScrollContainer id="scrollContainer" height="100%" width="100%" vertical="true">
             <List id="idmining" items="{MiningModel>/miningListSet/}" mode="SingleSelectMaster" selectionChange="onItemSelect">
                 <items>
-                    <ObjectListItem title="{MiningModel>Type_of_Mineral}" intro="{MiningModel>Location_Description}">
+                    <ObjectListItem title="{MiningModel>Type_of_Mineral}" icon="{MiningModel>image}" intro="{MiningModel>Location_Description}">
                         <attributes>
                             <ObjectAttribute text="{MiningModel>Total_Cost}" title="{i18n>Total_Cost}"></ObjectAttribute>
                             <ObjectAttribute text="{MiningModel>Mining_Resource_Allocated}" title="{i18n>Mining_Resource_Allocated}"></ObjectAttribute>
@@ -21,6 +23,13 @@
                     </ObjectListItem>
                 </items>
             </List>
+             </ScrollContainer>
         </content>
+        <footer>
+            <OverflowToolbar>
+                <ToolbarSpacer/>
+                <Button icon="sap-icon://up" type="Emphasized"  press="onScrollToTop" width="100px"/>
+            </OverflowToolbar>
+            </footer>
     </Page>
 </mvc:View>

@@ -39,6 +39,17 @@ sap.ui.define([
             oBinding.filter(mainFilter);
 
         },
+        onScrollToTop: function() {
+            var oScrollContainer = this.getView().byId("scrollContainer");
+            oScrollContainer.scrollTo(0, 0); // Scroll to the top of the container
+        },
+ 
+        onScrollToBottom: function() {
+            var oScrollContainer = this.getView().byId("scrollContainer");
+            oScrollContainer.scrollTo(0, oScrollContainer.getDomRef().scrollHeight); // Scroll to the bottom of the container
+        },
+
+
         onItemSelect: function(oEvent) {
             var oList = oEvent.getParameter("listItem");
             var sPath = oList.getBindingContextPath();

@@ -8,54 +8,59 @@
             <IconTabBar>
                 <items>
                     <IconTabFilter icon="sap-icon://information">
-                        <VBox >
+                        <VBox>
                             <f:SimpleForm>
-                                <Label text="LocationID"></Label>
-                                <Text text="{MiningModel>Location_ID}"></Text>
-                                <Label text="Location"></Label>
-                                <Text text="{MiningModel>Location_Description}"></Text>
-                                <Label text="Mineral Type"></Label>
-                                <Text text="{MiningModel>Type_of_Mineral}"></Text>
-                                <Label text="Cost"></Label>
-                                <Text text="{MiningModel>Total_Cost}"></Text>
-                                <Label text="Resouce Tons"></Label>
-                                <Text text="{MiningModel>Mining_Resource_Allocated}"></Text>
-                                <Label text="Drill Performed"></Label>
-                                <Text text="{MiningModel>Number_of_Drills_Performed}"></Text>
-                                <Label text="Potential"></Label>
-                                <Text text="{MiningModel>Report_of_Possible_Mineral}"></Text>
+                                <Label text="Location ID"/>
+                                <Text text="{MiningModel>Location_ID}"/>
+                                <Label text="Location"/>
+                                <Text text="{MiningModel>Location_Description}"/>
+                                <Label text="Mineral Type"/>
+                                <Text text="{MiningModel>Type_of_Mineral}"/>
+                                <Label text="Total Cost"/>
+                                <Text text="{MiningModel>Total_Cost}"/>
+                                <Label text="Resource in Tons"/>
+                                <Text text="{MiningModel>Mining_Resource_Allocated}"/>
+                                <Label text="Drill Performed"/>
+                                <Text text="{MiningModel>Number_of_Drills_Performed}"/>
+                                <Label text="Potential"/>
+                                <Text text="{MiningModel>Report_of_Possible_Mineral}"/>
+                                <Image src="{MiningModel>image}" width="180px" height="100px"/>
                             </f:SimpleForm>
                         </VBox>
                     </IconTabFilter>
                     <IconTabFilter icon="sap-icon://supplier">
-                        <Label text="Supplier"></Label>
-                        <Input id="idInputSupp" width="200px" liveChange="onFilter"></Input>
-                        <Label text="Location"></Label>
-                        <Input id="idInputCity" width="200px" liveChange="onFilter"></Input>
-                        <Table items="{MiningModel>/miningSupplier}" id="idMTable">
-                            <columns>
-                                <Column>
-                                    <Text text="Type of Mineral"></Text>
-                                </Column>
-                                <Column>
-                                    <Text text="Supplier Name"></Text>
-                                </Column>
-                                <Column>
-                                    <Text text="Location"></Text>
-                                </Column>
-                                <Column>
-                                    <Text text="Contact Details"></Text>
-                                </Column>
-                            </columns>
-                            <ColumnListItem>
-                                <cells>
-                                    <Text text="{MiningModel>Type_of_Mineral}"></Text>
-                                    <Input value="{MiningModel>Contractor_Name}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
-                                    <Text text="{MiningModel>Location}"></Text>
-                                    <Text text="{MiningModel>Contact}"></Text>
-                                </cells>
-                            </ColumnListItem>
-                        </Table>
+                        <VBox>
+                            <f:SimpleForm>
+                                <Label text="Supplier"/>
+                                <Input id="idInputSupp" width="200px" liveChange="onFilter"/>
+                                <Label text="Location"/>
+                                <Input id="idInputCity" width="200px" liveChange="onFilter"/>
+                            </f:SimpleForm>
+                            <Table items="{MiningModel>/miningSupplier}" id="idMTable">
+                                <columns>
+                                    <Column>
+                                        <Text text="Type of Mineral"/>
+                                    </Column>
+                                    <Column>
+                                        <Text text="Supplier Name"/>
+                                    </Column>
+                                    <Column>
+                                        <Text text="Location"/>
+                                    </Column>
+                                    <Column>
+                                        <Text text="Contact Details"/>
+                                    </Column>
+                                </columns>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text text="{MiningModel>Type_of_Mineral}"/>
+                                        <Input value="{MiningModel>Contractor_Name}" showValueHelp="true" valueHelpRequest="onF4Help"/>
+                                        <Text text="{MiningModel>Location}"/>
+                                        <Text text="{MiningModel>Contact}"/>
+                                    </cells>
+                                </ColumnListItem>
+                            </Table>
+                        </VBox>
                     </IconTabFilter>
                 </items>
             </IconTabBar>
